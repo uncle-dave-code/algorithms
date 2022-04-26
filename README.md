@@ -24,6 +24,16 @@ Java basic algorithms implementations
 
 [4. Exponencial Search](#exponencial-search)
 
+## Strings
+
+[1. Reverse](#reverse)
+
+[2. Anagram](#anagram)
+
+[3. Unique String](#unique)
+
+[4. Rotation](#rotation)
+
 ### Sorting
 #### Quick Sort
 
@@ -58,7 +68,7 @@ Linear search is a sequential searching algorithm where we start from one end an
 
 Search a sorted array by repeatedly dividing the search interval in half. Begin with an interval covering the whole array. If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. Otherwise, narrow it to the upper half. Repeatedly check until the value is found or the interval is empty.
 
-#### Inerpolation Search
+#### Interpolation Search
 
 The Interpolation Search is an improvement over Binary Search for instances, where the values in a sorted array are uniformly distributed. Binary Search always goes to the middle element to check. On the other hand, interpolation search may go to different locations according to the value of the key being searched. For example, if the value of the key is closer to the last element, interpolation search is likely to start search toward the end side.
 
@@ -67,3 +77,14 @@ The Interpolation Search is an improvement over Binary Search for instances, whe
 An exponential search is a combination of two methods:
 -Find the range in which the element exists.
 -Perform a binary search in that range.
+
+
+### Strings
+#### Reverse
+Reverse a String in java
+#### Anagram
+Two string are anagrams if they have same characters but in different order
+#### Unique
+Check if String has all unique characters
+#### Rotation
+Check whether str1 and str2 is rotation of one another
